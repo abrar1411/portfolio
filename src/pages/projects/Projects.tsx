@@ -44,7 +44,7 @@ const Projects = () => {
             key={index}
             emoji={item.emoji}
             title={item.title}
-            projectUrl={item.projectUrl}
+            projectUrl={item.projectUrl || ""}
             description={item.description}
           />
         ))}
